@@ -4,7 +4,7 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-model = joblib.load(r"C:\Users\Dell\OneDrive\ドキュメント\python\sentiment_model.pkl")
+model=joblib.load("model/sentiment.pkl")
 
 class InputText(BaseModel):
     text: str
@@ -30,4 +30,5 @@ def predict(data: InputText):
     return {
         "text": text,
         "prediction": sentiment
+
     }
