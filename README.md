@@ -143,7 +143,9 @@ http://127.0.0.1:8000/docs
   "prediction": "Positive"
 }
 ```
+## Live Demo
 
+https://sentiment-analysis-2-mz2u.onrender.com/docs
 ---
 
 ## Project Structure
@@ -173,3 +175,4 @@ sentiment-analysis
 
 This project demonstrates how **machine learning and NLP techniques** can be used to analyze text sentiment.
 Using **TF-IDF feature engineering, LinearSVC classification, and hyperparameter tuning**, the system effectively predicts sentiment from text data.
+
